@@ -10,4 +10,8 @@
 - Form Validation
 - Google firebase setup for Authentication functionality
 - Deployed in Google Firebase(to production)
-- Create Signup a user in Firebase
+- Created Signingup a user in Firebase
+- Implemented Sign In user Api
+- Created Redux store with userSlice
+- Header Component in Browse Page
+- Update User API
