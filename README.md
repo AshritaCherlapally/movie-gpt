@@ -24,10 +24,9 @@
 - Fetch data for Trailer, updated the store with Video Data
 - Embedded YT video and make it autoplay and mute
 - Used Tailwindcss classes to customize the webpage.
-
-# Browse Page
-
--
+- GPT Search Page
+- GPT Search Bar
+- Multi - Language Specific Chatgpt Feature page
 
 # Bug Fixes
 

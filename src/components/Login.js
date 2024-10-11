@@ -10,7 +10,7 @@ import { auth } from "../utils/firebase";
 
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
-import { USER_AVATAR } from "../utils/constants";
+import { BACKGROUND_URL, USER_AVATAR } from "../utils/constants";
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -100,7 +100,7 @@ const Login = () => {
       <div
         className="flex-grow flex items-center justify-center bg-cover bg-center"
         style={{
-          backgroundImage: `url('https://assets.nflxext.com/ffe/siteui/vlv3/4d2c5849-b306-4884-9036-6211f7ee0178/web/US-en-20240930-TRIFECTA-perspective_2311e209-246c-4397-86cf-081daee97f04_large.jpg')`,
+          backgroundImage: { BACKGROUND_URL },
         }}
       >
         <form
