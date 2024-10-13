@@ -27,6 +27,8 @@
 - GPT Search Page
 - GPT Search Bar
 - Multi - Language Specific Chatgpt Feature page
+- Fetched the Movie details from GPT Open AI using API_KEY
+- Website is Responsive
 
 # Bug Fixes
 
