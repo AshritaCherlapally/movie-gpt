@@ -1,46 +1,38 @@
-# Project Features
+# Movie GPT
 
-- Create React App
-- Configured Tailwind CSS
-- Configured Routing
-- Header
-- Body
-- SignIn Form
-- Signup Form
-- Form Validation
-- Google firebase setup for Authentication functionality
-- Deployed in Google Firebase(to production)
-- Created Signingup a user in Firebase
-- Implemented Sign In user Api
-- Created Redux store with userSlice
-- Header Component in Browse Page
-- Update User API
-- Unsubscribed to the onAuthStateChanged callback
-- Add HardCoded values to the contents file
-- TMDB database is used(live data of movies)
-- API call made for now playing movies list
-- Created few custom hooks for components
-- Created Slice and Updated the redux store with data
-- Fetch data for Trailer, updated the store with Video Data
-- Embedded YT video and make it autoplay and mute
-- Used Tailwindcss classes to customize the webpage.
-- GPT Search Page
-- GPT Search Bar
-- Multi - Language Specific Chatgpt Feature page
-- Get Open AI Api key
-- Gpt Search API Call
-- Fetched the Movie suggestions from TMDB
-- Created gptSlice added data
-- Reused MovieList Component to make movie suggestion container
-- Memoization
-- Added .env file
-- Adding .env file to gitignore
-- Used tailwind CSS to make the website responsive with all devices
+A React application for movie recommendations that integrates Firebase authentication and GPT-3 for intelligent search capabilities. The app utilizes TMDB for live movie data and features a responsive design with Tailwind CSS.
 
-# Bug Fixes
+## Features
 
-- Sign up user displayName and profile picture update, since the initial login credentials was null.
-- Redirect bug fix:
-  - If user is not logged in Re-direct to login page
-  - If user is logged in re-direct to browse page
-  - If the user is trying to re-direct to login page, website wont allow to do so, since the user is logged in
+- **User Authentication**: Secure sign-up and sign-in using Firebase, complete with form validation.
+- **Responsive Design**: Built with Tailwind CSS to ensure a smooth experience on all devices.
+- **Movie Data Integration**: Live movie data from TMDB, including currently playing movies and trailers.
+- **GPT-3 Search**: Intelligent search functionality with multi-language support for enhanced user experience.
+- **Redux State Management**: Efficiently manage user and application state with Redux.
+- **Custom Hooks**: Created for optimized performance and cleaner component logic.
+- **Seamless Navigation**: Implemented routing for easy access to different parts of the application.
+
+## Getting Started
+
+To get your local copy up and running, follow these steps:
+
+1. Clone the repository:
+   - bash
+   - git clone https://github.com/your-username/movie-recommendation-app.git
+2. Navigate to the project directory:
+   - cd movie-gpt
+3. Install Dependencies:
+   - npm install
+4. Add environment variables(Create a .env file in the root directory and add your Firebase configuration and OpenAI API key):
+   - REACT_APP_FIREBASE_API_KEY=your_api_key
+   - REACT_APP_OPENAI_API_KEY=your_openai_api_key
+5. Start the development center
+   - npm start
+
+Usage
+Once the app is running, you can:
+   - Sign up or log in using your Google account.
+   - Browse movie recommendations and watch trailers.
+   - Use the GPT search feature to find movies based on your preferences.
+
+Feel free to reach out if you have any questions or feedback!
