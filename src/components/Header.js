@@ -20,6 +20,8 @@ const Header = () => {
     signOut(auth)
       .then(() => {
         // Sign-out successful.
+        dispatch(removeUser());
+        navigate("/");
       })
       .catch((error) => {
         // An error happened.
@@ -35,8 +37,8 @@ const Header = () => {
           addUser({
             uid: uid,
             email: email,
-            displayName: displayName,
-            photoURL: photoURL,
+            displayName: displayName || user.displayName,
+            photoURL: photoURL || user.photoURL,
           })
         );
         navigate("/browse");
@@ -48,7 +50,7 @@ const Header = () => {
     });
     // Unsubscribe when component unmounts
     return () => unsubscribe();
-  }, []);
+  }, [dispatch, navigate]);
   const handleGptSearchClick = () => {
     //Toggling GPT search
     dispatch(toggleGptSearchView());
@@ -57,14 +59,15 @@ const Header = () => {
     dispatch(changeLanguage(e.target.value));
   };
   return (
-    <div className="absolute px-8 py-2 bg-gradient-to-b from-black z-10 w-full flex justify-between">
-      <img className="w-52 ml-28" src={LOGO} alt="Netflix-logo" />
+    <div className="absolute px-8 py-2 bg-gradient-to-b from-black z-10 w-full flex justify-center items-center md:justify-between  flex-col md:flex-row">
+      <img className="w-44 mx-auto md:mx-0" src={LOGO} alt="Netflix-logo" />
       {user && (
-        <div className="flex p-2 items-center">
-          <p className="text-white  mr-2 font-bold">
-            Welcome, {user?.displayName}!
-          </p>
-          <img className="w-12 h-12 m-2" src={user?.photoURL} alt="user-icon" />
+        <div className="flex items-center">
+          <img
+            className="w-10 h-10 rounded-full"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdjLlJS2C2KD-fRoOykz8e5luqOtFFpGo_QQ&s"
+            alt="user-icon"
+          />
           {showGptSearch && (
             <select
               className="bg-red-600 p-4 m-4 text-white rounded-lg"
@@ -79,14 +82,14 @@ const Header = () => {
           )}
 
           <button
-            className="bg-red-600  p-4 m-4 rounded-lg  text-white cursor-pointer"
+            className="bg-red-600  py-2 px-4 mx-4 my-2 rounded-lg  text-white cursor-pointer"
             onClick={handleGptSearchClick}
           >
             {showGptSearch ? "Home" : "GPT Search"}
           </button>
           <button
             onClick={handleSignOut}
-            className="bg-red-600  p-4 my-4 rounded-lg  text-white"
+            className="bg-red-600  px-4 py-2 mx-4 my-2 rounded-lg  text-white"
           >
             Sign Out
           </button>

@@ -27,8 +27,15 @@
 - GPT Search Page
 - GPT Search Bar
 - Multi - Language Specific Chatgpt Feature page
-- Fetched the Movie details from GPT Open AI using API_KEY
-- Website is Responsive
+- Get Open AI Api key
+- Gpt Search API Call
+- Fetched the Movie suggestions from TMDB
+- Created gptSlice added data
+- Reused MovieList Component to make movie suggestion container
+- Memoization
+- Added .env file
+- Adding .env file to gitignore
+- Used tailwind CSS to make the website responsive with all devices
 
 # Bug Fixes
 
