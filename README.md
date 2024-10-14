@@ -1,6 +1,6 @@
 # Movie GPT
 
-A #NETFLIX CLONE React application for movie recommendations that integrates #Firebase authentication and #GPT-3 for intelligent search capabilities. The app utilizes TMDB for live movie data and features a responsive design with Tailwind CSS.
+A # NETFLIX CLONE React application for movie recommendations that integrates # Firebase authentication and # GPT-3 for intelligent search capabilities. The app utilizes TMDB for live movie data and features a responsive design with Tailwind CSS.
 
 ## Features
 
@@ -14,31 +14,31 @@ A #NETFLIX CLONE React application for movie recommendations that integrates #Fi
 
 This is how my Movie-GPT Website Looks!!
 
-#Login/SignUp Page:
+# Login/SignUp Page:
 
 <img width="1437" alt="Login" src="https://github.com/user-attachments/assets/e408b0b3-89c1-42af-9b69-6d6d96e44dcc">
 
-#HOMEPAGE:
+# HOMEPAGE:
 <img width="1439" alt="HomePage" src="https://github.com/user-attachments/assets/025224de-15a8-40cf-a061-03065192fe34">
 
 
-#HOMEPAGE MOVIE RESULTS:
+# HOMEPAGE MOVIE RESULTS:
 <img width="1440" alt="Components" src="https://github.com/user-attachments/assets/e92bfecc-b28d-41ab-a95a-5ef53e8340cf">
 
 
-#GPT SEARCH PAGE:
+# GPT SEARCH PAGE:
 <img width="1440" alt="GPT-Search" src="https://github.com/user-attachments/assets/e0eed418-f144-47f4-99e0-87413eaa341e">
 
 
-#GPT SEARCH RESULTS:
+# GPT SEARCH RESULTS:
 <img width="1440" alt="GPTSearchResults" src="https://github.com/user-attachments/assets/20c4ceaf-fa40-44a9-91f5-64758c509503">
 
 
-#MULTI LANGUAGE SUGGESTIONS DROPDOWN:
+# MULTI LANGUAGE SUGGESTIONS DROPDOWN:
 <img width="1438" alt="Multi_language-dropdown" src="https://github.com/user-attachments/assets/0a777bea-460f-4184-bd19-660ee515e23b">
 
 
-#MULTI LANGUAGE MOVIE SUGGESTION RESULTS FROM GPT:
+# MULTI LANGUAGE MOVIE SUGGESTION RESULTS FROM GPT:
 <img width="1440" alt="Multi_language_Support" src="https://github.com/user-attachments/assets/7e6067ff-6ded-44c3-85a3-04adcea6ad2c">
 
 
