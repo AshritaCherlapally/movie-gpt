@@ -12,6 +12,10 @@ A React application for movie recommendations that integrates Firebase authentic
 - **Custom Hooks**: Created for optimized performance and cleaner component logic.
 - **Seamless Navigation**: Implemented routing for easy access to different parts of the application.
 
+This is how my Movie-GPT Website Looks!!
+
+
+
 ## Getting Started
 
 To get your local copy up and running, follow these steps:
