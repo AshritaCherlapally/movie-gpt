@@ -13,6 +13,16 @@ A React application for movie recommendations that integrates Firebase authentic
 - **Seamless Navigation**: Implemented routing for easy access to different parts of the application.
 
 This is how my Movie-GPT Website Looks!!
+<img width="1440" alt="Components" src="https://github.com/user-attachments/assets/e92bfecc-b28d-41ab-a95a-5ef53e8340cf">
+![Uploading GPTSearchPage.png
+<img width="1440" alt="GPTSearchResults" src="https://github.com/user-attachments/assets/20c4ceaf-fa40-44a9-91f5-64758c509503">
+<img width="1439" alt="HomePage" src="https://github.com/user-attachments/assets/025224de-15a8-40cf-a061-03065192fe34">
+<img width="1437" alt="Login" src="https://github.com/user-attachments/assets/e408b0b3-89c1-42af-9b69-6d6d96e44dcc">
+<img width="1440" alt="Multi_language_Support" src="https://github.com/user-attachments/assets/7e6067ff-6ded-44c3-85a3-04adcea6ad2c">
+<img width="1438" alt="Multi_language-dropdown" src="https://github.com/user-attachments/assets/0a777bea-460f-4184-bd19-660ee515e23b">
+…]()
+
+<img width="1440" alt="GPT-Search" src="https://github.com/user-attachments/assets/e0eed418-f144-47f4-99e0-87413eaa341e">
 
 
 
