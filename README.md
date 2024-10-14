@@ -51,7 +51,7 @@ To get your local copy up and running, follow these steps:
 
 1. Clone the repository:
    - bash
-   - git clone https://github.com/your-username/movie-recommendation-app.git
+   - git clone https://github.com/AshritaCherlapally/movie-gpt
 2. Navigate to the project directory:
    - cd movie-gpt
 3. Install Dependencies:
